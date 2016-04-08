@@ -15,17 +15,22 @@
 
 [Your VPC and Subnets](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html0)
 
-#### 10
+#### 10.X.Y.Z
 `10\.0?0?[0-9](\.0?0?0){2}\/((1[6-9])|(2[0-8]))`
 
 Example `10.1.0.0/16`
 
-#### 172.(16-31)
+#### 172.(16-31).Y.Z  (/12 space)
 `172\.(0?1[6-9]|0?2[0-9]|0?3[0-1])(\.0?0?0){2}\/((1[6-9])|(2[0-8]))`
 
 Example `172.20.0.0/16`
 
-#### 192.168
+#### 192.168.Y.Z
 `192\.168(\.0?0?0){2}\/((1[6-9])|(2[0-8]))`
 
 Example: `192.168.1.0/24`
+
+### References
+[CIDR cheat sheet](http://morse.colorado.edu/~epperson/courses/routing-protocols/cidr-cs.html)
+
+[CIDR SUBNET MASK CHEATSHEET & ICMP TYPE CODES](https://gist.github.com/mpath/11199329)
